@@ -5,12 +5,12 @@
 %define	pkgname	sshkit
 Summary:	SSHKit makes it easy to write structured, testable SSH commands in Ruby
 Name:		ruby-%{pkgname}
-Version:	1.9.0
+Version:	1.25.0
 Release:	1
 License:	MIT
 Group:		Development/Languages
 Source0:	http://rubygems.org/downloads/%{pkgname}-%{version}.gem
-# Source0-md5:	4eb808cf5a4ac954328fdc1965f5e232
+# Source0-md5:	936b75c62d0a2a79433077524865d0ad
 URL:		http://github.com/capistrano/sshkit
 BuildRequires:	rpm-rubyprov
 BuildRequires:	rpmbuild(macros) >= 1.656
